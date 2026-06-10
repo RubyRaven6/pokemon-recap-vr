@@ -17,7 +17,6 @@ ifeq (leafgreen, $(or $(BUILD), $(MAKECMDGOALS)))
 	TITLE       	:= POKEMON LEAF
 	GAME_CODE   	:= BPGE
 	BUILD_NAME  	:= leafgreen
-	MAP_VERSION 	:= firered
 endif
 endif
 
@@ -297,7 +296,7 @@ ifeq ($(SETUP_PREREQS),1)
     $(error Errors occurred while building tools. See error messages above for more details)
   endif
   # Oh and also generate mapjson sources before we use `SCANINC`.
-  $(foreach line, $(shell $(MAKE) MAP_VERSION=$(MAP_VERSION) generated | sed "s/ /__SPACE__/g"), $(info $(subst __SPACE__, ,$(line))))
+  $(foreach line, $(shell $(MAKE) BUILD_NAME=$(BUILD_NAME) generated | sed "s/ /__SPACE__/g"), $(info $(subst __SPACE__, ,$(line))))
   ifneq ($(.SHELLSTATUS),0)
     $(error Errors occurred while generating map-related sources. See error messages above for more details)
   endif
@@ -465,6 +464,7 @@ $(C_BUILDDIR)/graphics.o: override CFLAGS += -Wno-missing-braces
 # Have to be explicit or else missing files won't be reported.
 $(C_BUILDDIR)/move_relearner.o: $(C_SUBDIR)/move_relearner.c $(DATA_SRC_SUBDIR)/tutor_moves.h
 $(C_BUILDDIR)/pokemon.o: $(C_SUBDIR)/pokemon.c $(DATA_SRC_SUBDIR)/pokemon/teachable_learnsets.h
+$(C_BUILDDIR)/region_map.o: $(C_BUILDDIR)/region_map.d
 
 # As a side effect, they're evaluated immediately instead of when the rule is invoked.
 # It doesn't look like $(shell) can be deferred so there might not be a better way (Icedude_907: there is soon).
