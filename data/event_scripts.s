@@ -1753,3 +1753,6 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 
 	.include "data/maps/SS_Mercy_Cabin/scripts.inc"
 	.include "data/maps/SS_Mercy_Cabin/text.inc"
+
+	.include "data/maps/SS_Mercy_Hallway/scripts.inc"
+	.include "data/maps/SS_Mercy_Hallway/text.inc"

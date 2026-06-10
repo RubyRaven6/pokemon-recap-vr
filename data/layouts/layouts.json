@@ -12917,6 +12917,19 @@
       "border_filepath": "data/layouts/SS_Mercy_Cabin/border.bin",
       "blockdata_filepath": "data/layouts/SS_Mercy_Cabin/map.bin",
       "frlg_layout_rules": true
+    },
+    {
+      "id": "LAYOUT_SS_MERCY_HALLWAY",
+      "name": "SS_Mercy_Hallway_Layout",
+      "width": 28,
+      "height": 13,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General_Frlg",
+      "secondary_tileset": "gTileset_SSAnne",
+      "border_filepath": "data/layouts/SS_Mercy_Hallway/border.bin",
+      "blockdata_filepath": "data/layouts/SS_Mercy_Hallway/map.bin",
+      "frlg_layout_rules": true
     }
   ]
 }
