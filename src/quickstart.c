@@ -76,7 +76,7 @@ static void CB2_SkipToNewGame(void)
 {
 #if IS_FRLG
     static const u8 sText_PlayerMale[] = _("RED");
-    static const u8 sText_PlayerFemale[] = _("LEAF");
+    static const u8 sText_PlayerFemale[] = _("Bridget");
     static const u8 sText_Rival[] = _("BLUE");
 #else
     static const u8 sText_PlayerMale[] = _("BRENDAN");
