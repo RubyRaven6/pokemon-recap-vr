@@ -12930,6 +12930,32 @@
       "border_filepath": "data/layouts/SS_Mercy_Hallway/border.bin",
       "blockdata_filepath": "data/layouts/SS_Mercy_Hallway/map.bin",
       "frlg_layout_rules": true
+    },
+    {
+      "id": "LAYOUT_SS_MERCY_CAPTAINS_QUARTERS",
+      "name": "SS_Mercy_Captains_Quarters_Layout",
+      "width": 9,
+      "height": 10,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General_Frlg",
+      "secondary_tileset": "gTileset_SSAnne",
+      "border_filepath": "data/layouts/SS_Mercy_Captains_Quarters/border.bin",
+      "blockdata_filepath": "data/layouts/SS_Mercy_Captains_Quarters/map.bin",
+      "frlg_layout_rules": true
+    },
+    {
+      "id": "LAYOUT_SS_MERCY_HULL",
+      "name": "SS_Mercy_Hull_Layout",
+      "width": 18,
+      "height": 10,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_BuildingFrlg",
+      "secondary_tileset": "gTileset_SilphCo",
+      "border_filepath": "data/layouts/SS_Mercy_Hull/border.bin",
+      "blockdata_filepath": "data/layouts/SS_Mercy_Hull/map.bin",
+      "frlg_layout_rules": true
     }
   ]
 }

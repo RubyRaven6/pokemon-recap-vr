@@ -1,9 +1,9 @@
 {
-  "id": "MAP_SS_MERCY_CABIN",
-  "name": "SS_Mercy_Cabin",
-  "layout": "LAYOUT_SS_MERCY_CABIN",
+  "id": "MAP_SS_MERCY_HULL",
+  "name": "SS_Mercy_Hull",
+  "layout": "LAYOUT_SS_MERCY_HULL",
   "music": "MUS_DUMMY",
-  "region_map_section": "MAPSEC_S_S_MERCY",
+  "region_map_section": "MAPSEC_SAFARI_ZONE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_INDOOR",
@@ -17,11 +17,11 @@
   "object_events": [],
   "warp_events": [
     {
-      "x": 2,
-      "y": 1,
+      "x": 14,
+      "y": 2,
       "elevation": 0,
       "dest_map": "MAP_SS_MERCY_HALLWAY",
-      "dest_warp_id": "0"
+      "dest_warp_id": "2"
     }
   ],
   "coord_events": [],

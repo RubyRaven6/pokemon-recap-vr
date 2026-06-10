@@ -1164,6 +1164,8 @@
   ],
   "gMapGroup_SS_Mercy": [
     "SS_Mercy_Cabin",
-    "SS_Mercy_Hallway"
+    "SS_Mercy_Hallway",
+    "SS_Mercy_Captains_Quarters",
+    "SS_Mercy_Hull"
   ]
 }

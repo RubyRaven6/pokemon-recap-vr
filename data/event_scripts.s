@@ -1756,3 +1756,9 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 
 	.include "data/maps/SS_Mercy_Hallway/scripts.inc"
 	.include "data/maps/SS_Mercy_Hallway/text.inc"
+
+	.include "data/maps/SS_Mercy_Captains_Quarters/scripts.inc"
+	.include "data/maps/SS_Mercy_Captains_Quarters/text.inc"
+
+	.include "data/maps/SS_Mercy_Hull/scripts.inc"
+	.include "data/maps/SS_Mercy_Hull/text.inc"
